@@ -74,7 +74,7 @@ const LandingComponent = async ({ searchParams: { customUsername } }) => {
 			</nav>
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 
-			<h1 className="flex items-center z-10 text-4xl hover:scale-110 text-transparent duration-1000 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text bg-white p-5">
+			<h1 className="flex items-center z-10 text-4xl hover:scale-110 text-transparent duration-1000 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-gradient-to-r from-orange-900 to-cyan-400 bg-clip-text text-transparent p-5">
 				{username}
 				<UserIcon promise={promise} />
 			</h1>
